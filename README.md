@@ -16,6 +16,7 @@ Used here to the hide the complex subsystem of converting data from CSV and sort
 - Utilise transformer interface to ensure we can transform different format to the BankTrasnactionService requires when creating BankTransaction object (model).
 - Facade to hide complexities from the Controller.
 - I decided not to make use of ReactJS for front end components as HTML views for table structures is suitable. However, with more details, we may look for this approach.
+- Discussion on other requirements will enable us to further improve the solution.
 
 ### Setup
 1. Git clone project: git clone https://github.com/joshkour/csv_upload.git
