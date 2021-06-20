@@ -16,7 +16,7 @@ I decided not to make use of ReactJS for front end components as HTML views for 
 However, with more details, we may look for this approach.
 
 ### Setup
-1. Git clone project: git clone https://github.com/joshkour/fc_upload.git
+1. Git clone project: git clone https://github.com/joshkour/csv_upload.git
 2. Run in root path: composer install
 3. Create apache vhost to point to directory (<PATH_TO_PROJECT>/public)
 4. Go to http://127.0.0.1 (if set up as localhost)
