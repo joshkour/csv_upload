@@ -12,8 +12,10 @@ Using a facade helps to remove complex subsystems from the client caller.
 Used here to the hide the complex subsystem of converting data from CSV and sorting and any other related funtionalities that may appear in the future.
 
 ### Other considerations
-I decided not to make use of ReactJS for front end components as HTML views for table structures is suitable.
-However, with more details, we may look for this approach.
+- Utilise file input reader interface to ensure we can switch out to a different file read type if required i.e text, pdf or word etc.
+- Utilise transformer interface to ensure we can transform different format to the BankTrasnactionService requires when creating BankTransaction object (model).
+- Facade to hide complexities from the Controller.
+- I decided not to make use of ReactJS for front end components as HTML views for table structures is suitable. However, with more details, we may look for this approach.
 
 ### Setup
 1. Git clone project: git clone https://github.com/joshkour/csv_upload.git
