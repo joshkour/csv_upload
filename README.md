@@ -1,6 +1,3 @@
-Provide a small explanation outlining reasons why you selected your approach and why you 
-decided against any other solutions.
-
 ## Design patterns that have been used:
 When designing and implementing system, I will at minimum adhere to TDD, SOLID and DRY.
 
